@@ -38,7 +38,7 @@
             color:#ffdddd;
             font-size: 70px;
             text-align: center;
-            position:absolute; top:550px; 
+            position:absolute; top:600px; 
             left:10px; right:10px;
             font-weight:bold ;
 
@@ -50,6 +50,16 @@
                 text-align: center;
                 position:absolute; top:500px; 
                 left:10px; right:10px;
+                font-weight:bold ;
+
+            }
+        
+    #moving{
+                color:#e5eac6;
+                font-size: 40px;
+                text-align: center;
+                position:absolute; top:100px; 
+                left:200px; right:10px;
                 font-weight:bold ;
 
             }
@@ -104,7 +114,6 @@
     body{
         background-color: #c0d1ff;
     }
-
     /* .bcolor{
     background: rgb(27, 76, 255);
     } */

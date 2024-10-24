@@ -184,12 +184,15 @@
         active = true;
         startTime = new Date();
         $("#stop").html("");
+        $("#moving").html("稼働中");
+        
     }
 
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
         active=false;
         $("#stop").html("STOP!!");
+        $("#moving").html("");
     }
 
     // ButtonCがクリックされた時の処理
@@ -215,7 +218,9 @@
         }else{
            $("#half").html(" ");
         }
+       
         analog(rest);
+        
         
         }
         if(rest <= 0){
@@ -237,6 +242,7 @@
     <div id="time">Time</div>
     <div id="stop"></div>
     <div id="half"></div>
+    <div id="moving"></div>
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
